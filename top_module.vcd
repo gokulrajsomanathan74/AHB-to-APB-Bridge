@@ -1,0 +1,265 @@
+$date
+	Fri Feb 20 18:51:42 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module top_module_tb $end
+$var wire 2 ! hresp [1:0] $end
+$var wire 1 " pwrite $end
+$var wire 32 # pwdata [31:0] $end
+$var wire 3 $ pselx [2:0] $end
+$var wire 1 % penable $end
+$var wire 32 & paddr [31:0] $end
+$var wire 32 ' hrdata [31:0] $end
+$var reg 32 ( haddr [31:0] $end
+$var reg 1 ) hclk $end
+$var reg 1 * hreadyin $end
+$var reg 1 + hresetn $end
+$var reg 2 , htrans [1:0] $end
+$var reg 32 - hwdata [31:0] $end
+$var reg 1 . hwrite $end
+$var reg 32 / prdata [31:0] $end
+$scope module DUT $end
+$var wire 32 0 haddr [31:0] $end
+$var wire 1 ) hclk $end
+$var wire 1 * hreadyin $end
+$var wire 1 + hresetn $end
+$var wire 2 1 hresp [1:0] $end
+$var wire 2 2 htrans [1:0] $end
+$var wire 32 3 hwdata [31:0] $end
+$var wire 1 . hwrite $end
+$var wire 32 4 prdata [31:0] $end
+$var wire 1 5 valid $end
+$var wire 3 6 temp_selx [2:0] $end
+$var wire 1 " pwrite $end
+$var wire 32 7 pwdata [31:0] $end
+$var wire 3 8 pselx [2:0] $end
+$var wire 1 % penable $end
+$var wire 32 9 paddr [31:0] $end
+$var wire 1 : hwrite_reg $end
+$var wire 32 ; hwdata_2 [31:0] $end
+$var wire 32 < hwdata_1 [31:0] $end
+$var wire 32 = hrdata [31:0] $end
+$var wire 32 > haddr_2 [31:0] $end
+$var wire 32 ? haddr_1 [31:0] $end
+$scope module ahb_s $end
+$var wire 32 @ haddr [31:0] $end
+$var wire 1 ) hclk $end
+$var wire 32 A hrdata [31:0] $end
+$var wire 1 * hreadyin $end
+$var wire 1 + hresetn $end
+$var wire 2 B hresp [1:0] $end
+$var wire 2 C htrans [1:0] $end
+$var wire 32 D hwdata [31:0] $end
+$var wire 1 . hwrite $end
+$var wire 32 E prdata [31:0] $end
+$var reg 32 F haddr1 [31:0] $end
+$var reg 32 G haddr2 [31:0] $end
+$var reg 32 H hwdata1 [31:0] $end
+$var reg 32 I hwdata2 [31:0] $end
+$var reg 1 : hwritereg $end
+$var reg 3 J tempselx [2:0] $end
+$var reg 1 5 valid $end
+$upscope $end
+$scope module apb_c $end
+$var wire 32 K haddr1 [31:0] $end
+$var wire 32 L haddr2 [31:0] $end
+$var wire 1 ) hclk $end
+$var wire 1 + hresetn $end
+$var wire 32 M hwdata1 [31:0] $end
+$var wire 32 N hwdata2 [31:0] $end
+$var wire 1 : hwritereg $end
+$var wire 32 O prdata [31:0] $end
+$var wire 3 P tempselx [2:0] $end
+$var wire 1 5 valid $end
+$var parameter 3 Q idle $end
+$var parameter 3 R read $end
+$var parameter 3 S renable $end
+$var parameter 3 T wenable $end
+$var parameter 3 U wenablep $end
+$var parameter 3 V write $end
+$var parameter 3 W writep $end
+$var parameter 3 X wwait $end
+$var reg 3 Y next [2:0] $end
+$var reg 32 Z paddr [31:0] $end
+$var reg 1 % penable $end
+$var reg 3 [ present [2:0] $end
+$var reg 3 \ pselx [2:0] $end
+$var reg 32 ] pwdata [31:0] $end
+$var reg 1 " pwrite $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 X
+b100 W
+b11 V
+b101 U
+b110 T
+b111 S
+b10 R
+b0 Q
+$end
+#0
+$dumpvars
+bx ]
+bx \
+bx [
+bx Z
+b0 Y
+b0 P
+b0 O
+bx N
+bx M
+bx L
+bx K
+b0 J
+bx I
+bx H
+bx G
+bx F
+b0 E
+b0 D
+b0 C
+b0 B
+b0 A
+b0 @
+bx ?
+bx >
+b0 =
+bx <
+bx ;
+x:
+bx 9
+bx 8
+bx 7
+b0 6
+05
+b0 4
+b0 3
+b0 2
+b0 1
+b0 0
+b0 /
+0.
+b0 -
+b0 ,
+0+
+0*
+0)
+b0 (
+b0 '
+bx &
+x%
+bx $
+bx #
+x"
+b0 !
+$end
+#50
+b0 #
+b0 7
+b0 ]
+b0 &
+b0 9
+b0 Z
+b0 $
+b0 8
+b0 \
+0%
+0"
+b0 [
+b0 >
+b0 G
+b0 L
+b0 ?
+b0 F
+b0 K
+b0 ;
+b0 I
+b0 N
+b0 <
+b0 H
+b0 M
+0:
+1)
+#100
+b10 Y
+15
+b1 6
+b1 J
+b1 P
+0)
+b11 ,
+b11 2
+b11 C
+b10000000000000000000000000000000 (
+b10000000000000000000000000000000 0
+b10000000000000000000000000000000 @
+b10000000000000000000000000000000 -
+b10000000000000000000000000000000 3
+b10000000000000000000000000000000 D
+1*
+1.
+1+
+#150
+b111 Y
+b10000000000000000000000000000000 &
+b10000000000000000000000000000000 9
+b10000000000000000000000000000000 Z
+b1 $
+b1 8
+b1 \
+1:
+b10000000000000000000000000000000 <
+b10000000000000000000000000000000 H
+b10000000000000000000000000000000 M
+b10000000000000000000000000000000 ?
+b10000000000000000000000000000000 F
+b10000000000000000000000000000000 K
+b10 [
+1)
+#200
+0)
+b10000100000000000000000000000000 (
+b10000100000000000000000000000000 0
+b10000100000000000000000000000000 @
+b10000100000000000000000000000000 -
+b10000100000000000000000000000000 3
+b10000100000000000000000000000000 D
+#250
+1%
+b10000100000000000000000000000000 &
+b10000100000000000000000000000000 9
+b10000100000000000000000000000000 Z
+b1 $
+b1 8
+b1 \
+b111 [
+b10000000000000000000000000000000 >
+b10000000000000000000000000000000 G
+b10000000000000000000000000000000 L
+b10000100000000000000000000000000 ?
+b10000100000000000000000000000000 F
+b10000100000000000000000000000000 K
+b10000000000000000000000000000000 ;
+b10000000000000000000000000000000 I
+b10000000000000000000000000000000 N
+b10000100000000000000000000000000 <
+b10000100000000000000000000000000 H
+b10000100000000000000000000000000 M
+1)
+#300
+b0 Y
+05
+0)
+b0 ,
+b0 2
+b0 C
+0.

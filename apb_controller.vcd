@@ -1,0 +1,145 @@
+$date
+	Fri Feb 20 18:48:00 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module apb_controller_tb $end
+$var wire 1 ! pwrite $end
+$var wire 32 " pwdata [31:0] $end
+$var wire 3 # pselx [2:0] $end
+$var wire 1 $ penable $end
+$var wire 32 % paddr [31:0] $end
+$var parameter 32 & cycle $end
+$var reg 32 ' haddr1 [31:0] $end
+$var reg 32 ( haddr2 [31:0] $end
+$var reg 1 ) hclk $end
+$var reg 1 * hresetn $end
+$var reg 32 + hwdata1 [31:0] $end
+$var reg 32 , hwdata2 [31:0] $end
+$var reg 1 - hwritereg $end
+$var reg 32 . prdata [31:0] $end
+$var reg 3 / tempselx [2:0] $end
+$var reg 1 0 valid $end
+$scope module DUT $end
+$var wire 32 1 haddr1 [31:0] $end
+$var wire 32 2 haddr2 [31:0] $end
+$var wire 1 ) hclk $end
+$var wire 1 * hresetn $end
+$var wire 32 3 hwdata1 [31:0] $end
+$var wire 32 4 hwdata2 [31:0] $end
+$var wire 1 - hwritereg $end
+$var wire 32 5 prdata [31:0] $end
+$var wire 3 6 tempselx [2:0] $end
+$var wire 1 0 valid $end
+$var parameter 3 7 idle $end
+$var parameter 3 8 read $end
+$var parameter 3 9 renable $end
+$var parameter 3 : wenable $end
+$var parameter 3 ; wenablep $end
+$var parameter 3 < write $end
+$var parameter 3 = writep $end
+$var parameter 3 > wwait $end
+$var reg 3 ? next [2:0] $end
+$var reg 32 @ paddr [31:0] $end
+$var reg 1 $ penable $end
+$var reg 3 A present [2:0] $end
+$var reg 3 B pselx [2:0] $end
+$var reg 32 C pwdata [31:0] $end
+$var reg 1 ! pwrite $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 >
+b100 =
+b11 <
+b101 ;
+b110 :
+b111 9
+b10 8
+b0 7
+b1010 &
+$end
+#0
+$dumpvars
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+x0
+bx /
+bx .
+x-
+bx ,
+bx +
+x*
+0)
+bx (
+bx '
+bx %
+x$
+bx #
+bx "
+x!
+$end
+#50
+1)
+#100
+b0 ?
+0)
+b1 /
+b1 6
+b10000000000000000000000000000000 +
+b10000000000000000000000000000000 3
+b10000000000000000000000000000000 '
+b10000000000000000000000000000000 1
+10
+1-
+1*
+#150
+b0 "
+b0 C
+b0 %
+b0 @
+b0 #
+b0 B
+0$
+0!
+b0 A
+1)
+#200
+0)
+b10000010000000000000000000000000 ,
+b10000010000000000000000000000000 4
+b10000010000000000000000000000000 (
+b10000010000000000000000000000000 2
+b10000001000000000000000000000000 +
+b10000001000000000000000000000000 3
+b10000001000000000000000000000000 '
+b10000001000000000000000000000000 1
+#250
+1)
+#300
+0)
+0*
+#350
+1)
+#400
+0)
+1*
+#450
+1)
+#500
+0)
